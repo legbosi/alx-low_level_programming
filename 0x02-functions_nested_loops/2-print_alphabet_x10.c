@@ -3,7 +3,7 @@
 /**
  * add - returns sum of parameters
  * @a: int type
- * @b: int typr
+ * @b: int type
  * Return: 0
  */
 int add(int a, int b)
