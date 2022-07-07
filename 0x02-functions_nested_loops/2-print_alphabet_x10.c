@@ -1,12 +1,21 @@
 #include "main.h"
 
 /**
- * add - returns sum of parameters
- * @a: int type
- * @b: int type
- * Return: 0
+ * print_alphabet_x10 - prints alphabet 10 times
+ * Return:void
  */
-int add(int a, int b)
+void print_alphabet_x10(void)
 {
-	return (a + b);
-}
+	char c;
+	int i = 0;
+
+	while (i < 10)
+	{
+		c = 'a';
+		while (c <= 'z')
+		{
+			_putchar(c);
+			c++;
+		}
+		_putchar('\n')
+			i++;									}
