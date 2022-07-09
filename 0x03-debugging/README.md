@@ -1,1 +1,1 @@
-read my debugging
+Directory readme file
