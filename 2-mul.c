@@ -1,9 +1,12 @@
 #include "main.h"
+
 /**
- * mul - retuens the results of the parameters
- * @a: int type number
- * @b: int type number
- * Return: 0
+ * mul - multiple of two integer
+ *
+ * @a: as int
+ * @b: as int
+ *
+ * Return: Always 0
  */
 int mul(int a, int b)
 {
