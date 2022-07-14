@@ -4,8 +4,8 @@
  * _strcat - concatenates two strings
  * @dest: The destination string
  * @src: The source string
- * Return: A pointer to the resulting string dest.
  *
+ * Return: A pointer to the resulting string dest.
  */
 char *_strcat(char *dest, char *src)
 {
@@ -22,6 +22,6 @@ char *_strcat(char *dest, char *src)
 		dest++;
 		src++;
 	}
-	*dest = '\0';
-	return (s);
+		*dest = '\0';
+		return (s);
 }
